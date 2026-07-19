@@ -30,7 +30,8 @@ Code Number = The actual color or style (e.g., **31 for Red**).
 
 m = **Modify!** This tells the terminal that the command is over, now apply it.
 
-**So, the code for red text is simply: \033[31m**
+** - So, the code for red text is simply: \033[31m**
+
 
 
 **🚦The 2026 **Python** Cheat Sheet ( **CodeNumbers** )-**
