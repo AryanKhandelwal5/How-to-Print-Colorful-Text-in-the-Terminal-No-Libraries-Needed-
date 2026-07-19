@@ -80,7 +80,7 @@ If you tell the trminal to turn Red, it will stay Red **FOREVER**, even after yo
 
 ---
 # **Boilerplate Code in **Python** Using Classes**-
-```bash
+```python
 
 class Color:
     RED = '\033[31m'
