@@ -99,7 +99,7 @@ print(f"{Color.RED}ERROR: File not found.{Color.RESET}")
 # You can even mix them! (Bold + Cyan)
 print(f"{Color.BOLD}{Color.CYAN}Welcome to the Matrix.{Color.RESET}")
 ```
-## 💻** Boilerplate Code in C++ Using Strings-**
+## 💻**Boilerplate Code in C++ Using Strings-**
 
 ```cpp
 #include <iostream>
