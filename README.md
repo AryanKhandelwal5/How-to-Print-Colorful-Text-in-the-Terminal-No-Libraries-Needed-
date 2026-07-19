@@ -24,11 +24,11 @@ When the terminal sees `\033[`, it immediately stops printing the next text and 
 \033[ + Code Number + m
 ```
 
--\033[ = **Start** the secret command.
+\033[ = **Start** the secret command.
 
--Code Number = The actual color or style (e.g., **31 for Red**).
+**Code Number** = The actual color or style (e.g., **31 for Red**).
 
--m = **Modify!** This tells the terminal that the command is over, now apply it.
+m = **Modify!** This tells the terminal that the command is over, now apply it.
 
 **--> So, the code for red text is simply: \033[31m**
 
