@@ -35,6 +35,7 @@ m = **Modify!** This tells the terminal that the command is over, now apply it.
 
 
 **🚦The 2026 **Python** Cheat Sheet ( **CodeNumbers** )-**
+
 1.**Text Colors**-
 
 🔴 Red: 31
@@ -64,6 +65,7 @@ m = **Modify!** This tells the terminal that the command is over, now apply it.
 Bold: 1
 
 Underline: 4
+
 
 
 3. The Most Important Code: **RESET**
