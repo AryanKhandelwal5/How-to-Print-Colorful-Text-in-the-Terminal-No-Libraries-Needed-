@@ -92,7 +92,7 @@ class Color:
     RESET = '\033[0m'
 
 # Use Python f-strings to inject the colors
-print(f"{Color.GREEN}System booted successfully!{Color.RESET}")   # Turn ON Green ink , Type the word "Hello" , Turn OFF the ink (Reset to default).
+print(f"{Color.GREEN}System booted successfully!{Color.RESET}")   # Turn ON Green ink , Type your text , Turn OFF the ink (Reset to default).
 
 print(f"{Color.RED}ERROR: File not found.{Color.RESET}")
 
