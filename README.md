@@ -30,7 +30,7 @@ When the terminal sees `\033[`, it immediately stops printing the next text and 
 
 m = **Modify!** This tells the terminal that the command is over, now apply it.
 
-**--> So, the code for red text is simply: \033[31m**
+**👉 So, the code for red text is simply: \033[31m**
 
 
 
@@ -99,12 +99,37 @@ print(f"{Color.RED}ERROR: File not found.{Color.RESET}")
 # You can even mix them! (Bold + Cyan)
 print(f"{Color.BOLD}{Color.CYAN}Welcome to the Matrix.{Color.RESET}")
 ```
+## 💻 Boilerplate Code in C++ Using Strings-
+
+```cpp
+#include <iostream>
+#include <string>
+using namespace std;
+
+// Define colors in simple string variables
+string RED = "\033[31m";
+string GREEN = "\033[32m";
+string CYAN = "\033[36m";
+string BOLD = "\033[1m";
+string RESET = "\033[0m";
+
+int main() {
+
+    cout << GREEN << "System booted successfully!" << RESET << "\n";
+    
+    cout << RED << "ERROR: File not found." << RESET << "\n";
+    
+    cout << BOLD << CYAN << "Welcome to the Matrix." << RESET << "\n";
+    
+    return 0;
+}
+```
 
 ---
 # How to get ANY Custom Color (True RGB) ??
 - Standard colors are great, but what if you want a very specific color, like Codeforces Orange or Spotify Green?
 - he formula changes slightly to include the RGB numbers (from 0 to 255):
-```bash
+```text
 \033[38;2; + R;G;B + m
 ```
 **Example - ORANGE = '\033[38;2;255;165;0m'**
