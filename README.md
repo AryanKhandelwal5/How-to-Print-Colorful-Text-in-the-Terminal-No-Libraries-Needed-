@@ -1,6 +1,6 @@
 # 🎨 ANSI Escape Codes: Colorful Texts in Your Terminal
 
-**Hacking the Terminal: How to Print Colorful Text in Python**
+**Hacking the Terminal: How to Print **Colorful** Text in Python**
 
 Have you ever looked at a boring, black-and-white terminal and wondered, *"How do hacker movies show those neon green messages?"*
 
@@ -8,21 +8,20 @@ The secret lies in something built right into your computer: **ANSI Escape Codes
 
 ---
 
-## 🧠 The Core Concept: What is an ANSI Code?
+## 🧠 The Core Concept: What is an **ANSI Code**?
 
 Think of your terminal as a "Dumb Typewriter". Whatever text you send to it, it just prints it on the screen. But what if you want to tell the terminal to change the ink color?
 
-You need a way to whisper a "secret command" to the terminal. We do this using an **Escape Character** (`\033[`).
+You need a way to whisper a "**secret command**" to the terminal. We do this using an **Escape Character** ( **\033[** ).
 
 In Python, the escape character is written as `\033[`. 
-When the terminal sees `\033[`, it immediately stops printing and says: *"Oh wait, the programmer is giving me a secret instruction!"*
+When the terminal sees `\033[`, it immediately stops printing the next text and says: *"Oh wait, the programmer is giving me a secret instruction!"*
 
 ---
 
-## 📐 The Formula
-
+## 📐 **The Formula-**
 ```text
-\033[ + Code Number + m
+**\033[ + Code Number + m**
 ```
 
 \033[ = Start the secret command.
